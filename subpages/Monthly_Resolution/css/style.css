@@ -1,0 +1,105 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body{
+     background: url(../images/notebook.png);
+     font-family: 'Lato';
+     color: black;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container{
+     width: 1000px;
+     margin: 50px auto 50px auto;
+}
+
+#head{
+     margin: 15px 0 30px 0;
+}
+h1{
+     font-size: 3em;
+}
+h2{
+     font-size: 2em;
+}
+
+empty{
+     height: 50px;
+     display: block;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#main{
+     float: left;
+     background: white;
+     padding: 30px;
+     width: 610px;
+}
+
+
+/*--------------------------------------------------------------------------------
+04=SIDEBAR
+--------------------------------------------------------------------------------*/
+
+#sidebar{
+     float: left;
+     background: white;
+     width: 300px;
+     margin: 0 0 0 30px;
+     box-shadow: -3px 3px rgba(128, 128, 128, 0.746);
+     padding: 30px;
+}
+
+
+
+.nomargin{
+     margin: 0;
+}
+
+test{
+     background: pink;
+     display: inline;
+     padding: 2px;
+     margin: 10px 0 40px 0;
+}
+
+.grey{
+     color: grey;
+}
+
+a {
+     color: orange;
+     text-decoration: none;
+}
+
+.circle{
+     width: 150px;
+     border-radius: 100px;
+}
+
+#quote{
+     padding-left: 15px;
+     box-shadow: -3px 0 rgba(128, 128, 128, 0.377);
+}

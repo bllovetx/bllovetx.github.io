@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-	background: rgba(224, 67, 154, 0.4);
+	background:#f81a9881/* rgba(224, 67, 154, 0.4)*/;
 	color:#75c1f6;
 	display: inline;
 	padding: 5px;
