@@ -32,6 +32,7 @@ body{
 #container{
      width: 1000px;
      margin: 50px auto 50px auto;
+     padding: 40px;
 }
 
 #head{
@@ -54,8 +55,8 @@ empty{
 #main{
      float: left;
      background: white;
-     padding: 30px;
-     width: 610px;
+     padding: 25px;
+     width: 600px;
 }
 
 
@@ -67,7 +68,7 @@ empty{
      float: left;
      background: white;
      width: 300px;
-     margin: 0 0 0 30px;
+     margin: 0 0 0 20px;
      box-shadow: -3px 3px rgba(128, 128, 128, 0.746);
      padding: 30px;
 }
