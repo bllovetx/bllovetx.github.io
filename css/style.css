@@ -38,9 +38,11 @@ h2{
 }
 
 h3{
-	background: rgb(231, 73, 99);
-	color:black;
-	background-size: cover;
+	background: rgba(224, 67, 154, 0.4);
+	color:#75c1f6;
+	display: inline;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 a{
