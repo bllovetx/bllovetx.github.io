@@ -22,7 +22,7 @@ Author: Christopher Castig | @castig
 
 body{
      background: url(../images/notebook.png);
-     font-family: 'Lato';
+     font-family: 'Lato' sans-serif;
      color: black;
 }
 
