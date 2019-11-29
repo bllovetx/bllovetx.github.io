@@ -56,7 +56,7 @@ body {
 
 
     h1{
-        font-size: 3.75rem; /* 60px */
+        font-size: 50px;
         font-family: 'Zhi Mang Xing', cursive;
         margin: 0;
     }
@@ -111,7 +111,7 @@ body {
 
     h2 {
         font-family: 'Baumans', cursive;
-        font-size: 5rem;    /* 80px */
+        font-size: 75px;
         margin: 30px auto 0 auto;
     }
     h3 {
