@@ -41,7 +41,7 @@ body {
 
 
     h1{
-        font-size: 60px;
+        font-size: 3.75rem; /* 60px */
         font-family: 'Zhi Mang Xing', cursive;
         margin: 0;
     }
@@ -211,11 +211,11 @@ a {
 /*
 @media only screen and (min-width: 900px) {
     #container {
-        width: 600px;
+        width: 100%;
     }
 
     #head {
-        color: black;
+        color: white;
     }
 }
 
