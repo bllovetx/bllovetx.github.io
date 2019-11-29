@@ -96,7 +96,7 @@ body {
 
     h2 {
         font-family: 'Baumans', cursive;
-        font-size: 80px;
+        font-size: 5rem;    /* 80px */
         margin: 30px auto 0 auto;
     }
     h3 {
