@@ -65,7 +65,7 @@ h2 {
 .container {
   width: 600px;
   margin: 100px auto;
-  background: #FFF;
+  background: rgba(247, 48, 48, 0.603);
   border-radius: 20px 20px 0 0;
 }
 
@@ -84,7 +84,7 @@ h2 {
 
 section.contact {
     padding: 50px 0;
-    background: rgba(221, 221, 221, 0.472);
+    background: rgba(187, 33, 33, 0.164);
     text-align: center;
 }
 
