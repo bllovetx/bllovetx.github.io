@@ -1,55 +1,221 @@
-/* 
+/*
 
-Project Name: Cookie Monster 
-Client: Cookie Monster
-Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
-Developed @ One Month in NYC 
+Project Name:  Home Page for 曾许曌秋 (Eliot)
+Author: 曾许曌秋 (eliot) | zxzq.me 
+At: Nanjing University
 
 */
 
 body {
+    /* One of my favorite Characters */
 	background: url('../images/wlop_bg.jpg');
-	/* the follow is the code to have the image display as a full page */
 	background-position: center;
+	background-size: cover;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-size: 200%;
-	
+    -o-background-size: cover;
+    font-family: 'Baumans', cursive;
+}
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
 }
 
 #container{
-	background:rgba(0, 0, 0, 0.5);
-	width:700px;
-	color:white;
-	padding:15px;
+    margin: 30px auto;
+	width: 100%;
+	color: #f795cc;
 }
 
-h1{
-	font-size: 80px;
+/* 
+ * Name and slogen(head)
+ */
+
+#head {
+    width: 100%;
+    color: white;
 }
 
-h2{
-	background: #75c1f6;
-	color:black;
-	padding: 5px;
-	border-radius: 5px;
+
+    h1{
+        font-size: 60px;
+        font-family: 'Zhi Mang Xing', cursive;
+        margin: 0;
+    }
+
+    h1 zhao {
+        font-size: 80px;
+        color: rgba(240, 112, 81, 0.781);
+        font-weight: normal;
+    }
+
+    slo {
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 30px;
+        padding: 2px
+    }
+
+/*   MAIN  */
+#main {
+    width: 100%;
 }
 
-h3{
-	background:#f81a9881/* rgba(224, 67, 154, 0.4)*/;
-	color:#75c1f6;
-	display: inline;
-	padding: 5px;
-	border-radius: 5px;
+    /*
+    * About Me
+    */
+    
+
+    section.aboutme {
+        width: 100%;
+        background: #431b6b8a;
+        color: #e3c91e;
+        text-align: center;
+        overflow: auto;
+    }
+
+    section.aboutme p {
+        margin: 70px;
+    }
+    .a1, .a2, .a3 {
+        border-radius: 50px;
+        padding: 20px 50px;
+        color: white;
+    }
+    .a1 {
+        background: #e0007b;
+    }
+    .a2 {
+        background: #61d0d4;
+    }
+    .a3 {
+        background: #29c494;
+    }
+
+    h2 {
+        font-family: 'Baumans', cursive;
+        font-size: 80px;
+        margin: 30px auto 0 auto;
+    }
+    h3 {
+        font-size: 50px;
+        font-weight: normal;
+        margin: 10px;
+    }
+
+    /* 
+     * Contact me
+     */
+   
+     #contact {
+        width: 100%;
+        background: #e0007b8c;
+        color: #e3c91e;
+        text-align: center;
+        overflow: auto; 
+    }
+    #contact li {
+        font-family: 'Courgette', cursive;
+        font-size: 25px;
+        font-weight: normal; 
+    }
+
+    /* 
+     * Blogs
+     */
+    
+    #blogs {
+        width: 100%;
+        background: #61d0d4a2;
+        color: #e3c91e;
+        text-align: center;
+        overflow: auto; 
+    }
+    #blogs h3 {
+        margin: 40px 0;
+    }
+
+    #blogs ul {
+        text-align: left;
+        font-family: 'Courgette', cursive;
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    #blogs a {
+        color: white;
+    }
+
+  
+    /* 
+     * More
+     */
+    
+     #more {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.486);
+        color: #e3c91e;
+        text-align: center;
+        overflow: auto; 
+    }
+    #more h3 {
+        margin: 40px 0;
+    } 
+    /* 
+     * Acknowledge
+     */
+    
+     #acknowledge {
+        width: 100%;
+        background: #29c49394;
+        color: #e3c91e;
+        text-align: center;
+        overflow: auto; 
+    } 
+    #acknowledge a {        
+        color: white;
+    }
+
+    /*
+     * footer
+     */
+
+    #footer p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+p{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    font-weight: normal;
 }
 
-a{
-	color:#75c1f6;
+bold {
+    font-weight: bold;
+}
+/*
+ * link (a)
+ */
+
+
+
+a {
+    color:#75c1f6;
 	text-decoration: none;
 }
-p{
-	font-family: 'Courgette', cursive;
+
+
+
+@media only screen and (min-width: 700px) {
+    #container {
+        width: 600px;
+    }
+
+    #head {
+        color: black;
+    }
 }
+
