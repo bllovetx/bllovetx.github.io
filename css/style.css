@@ -5,19 +5,34 @@ Author: 曾许曌秋 (eliot) | zxzq.me
 At: Nanjing University
 
 */
-
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(../images/wlop_bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*
 body {
     /* One of my favorite Characters */
 	background: url('../images/wlop_bg.jpg');
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: cover;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
     -o-background-size: cover;
     font-family: 'Baumans', cursive;
 }
-
+*/
 * {
     -moz-box-sizing: border-box; /* Firexfox */
     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
