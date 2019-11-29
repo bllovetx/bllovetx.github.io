@@ -20,19 +20,7 @@ body:before {
     -o-background-size: cover;
     background-size: cover;
 }
-/*
-body {
-    /* One of my favorite Characters */
-	background: url('../images/wlop_bg.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-    -o-background-size: cover;
-    font-family: 'Baumans', cursive;
-}
-*/
+
 * {
     -moz-box-sizing: border-box; /* Firexfox */
     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -62,7 +50,7 @@ body {
     }
 
     h1 zhao {
-        font-size: 80px;
+        font-size: 70px;
         color: rgba(240, 112, 81, 0.781);
         font-weight: normal;
     }
@@ -111,7 +99,7 @@ body {
 
     h2 {
         font-family: 'Baumans', cursive;
-        font-size: 75px;
+        font-size: 70px;
         margin: 30px auto 0 auto;
     }
     h3 {
@@ -223,15 +211,16 @@ a {
 }
 
 
-/*
-@media only screen and (min-width: 900px) {
+
+@media only screen and (min-width: 700px) {
     #container {
-        width: 100%;
+        width: 700px;
     }
 
     #head {
-        color: white;
+        background: rgba(250, 249, 248, 0.459);
+        color: black;
+        border-radius: 10px 10px 0 0;
     }
 }
 
-*/
