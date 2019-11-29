@@ -1,0 +1,25 @@
+
+
+/*
+ * container style
+ */
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+
+/*
+ * hero
+ */
+
+.hero img {
+    border-radius: 0;
+}
+
+
+aside.left,aside.right {
+    text-align: center;
+    float: inherit;
+}

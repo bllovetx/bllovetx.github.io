@@ -1,0 +1,112 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url(../images/space-background.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border-radius: 20px 20px 0 0;
+}
+
+
+/*
+ * Hero styles
+ */
+.hero img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/*
+ * Section styles
+ */
+
+section.contact {
+    padding: 50px 0;
+    background: #DDD;
+    text-align: center;
+}
+
+
+
+section.contact, section.intro {
+    padding: 50px;
+    overflow: auto;
+}
+/*
+ * Aside styles
+ */
+aside {
+    padding: 30px;
+}
+
+aside.left {
+    float: left;
+}
+
+aside.right {
+    float: right;
+}
+
+
