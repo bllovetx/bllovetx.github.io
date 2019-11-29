@@ -177,6 +177,9 @@ body:before {
         text-align: center;
         overflow: auto; 
     } 
+    #acknowledge h2 {
+        font-size: 65px;
+    }
     #acknowledge a {        
         color: white;
     }
