@@ -80,7 +80,7 @@ body:before {
     }
 
     section.aboutme p {
-        margin: 70px 0 70px 0;
+        margin: 70px 20px 70px 20px;
     }
     .a1, .a2, .a3 {
         border-radius: 50px;
@@ -178,7 +178,7 @@ body:before {
         overflow: auto; 
     } 
     #acknowledge h2 {
-        font-size: 65px;
+        font-size: 55px;
     }
     #acknowledge a {        
         color: white;
@@ -215,15 +215,15 @@ a {
 
 
 
-@media only screen and (min-width: 700px) {
-    #container {
-        width: 700px;
+@media only screen and (min-width: 900px) {
+    body:before {
+        left: 50%;
+        width: 50%;
     }
-
-    #head {
-        background: rgba(250, 249, 248, 0.459);
-        color: black;
-        border-radius: 10px 10px 0 0;
+    #container {
+        width: 50%;
+        background: rgb(48, 47, 47);
+        margin: 0 auto 0 0;
     }
 }
 
