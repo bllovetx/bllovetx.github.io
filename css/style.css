@@ -73,7 +73,7 @@ body:before {
 
     section.aboutme {
         width: 100%;
-        background: #431b6b8a;
+        background: rgba(67, 27, 107, 0.50);
         color: #e3c91e;
         text-align: center;
         overflow: auto;
@@ -114,7 +114,7 @@ body:before {
    
      #contact {
         width: 100%;
-        background: #e0007b8c;
+        background: rgba(224, 0, 123, 0.5);
         color: #e3c91e;
         text-align: center;
         overflow: auto; 
@@ -131,7 +131,7 @@ body:before {
     
     #blogs {
         width: 100%;
-        background: #61d0d4a2;
+        background: rgba(97, 208, 212, 0.5);
         color: #e3c91e;
         text-align: center;
         overflow: auto; 
@@ -172,7 +172,7 @@ body:before {
     
      #acknowledge {
         width: 100%;
-        background: #29c49394;
+        background: rgba(41, 196, 147, 0.5);
         color: #e3c91e;
         text-align: center;
         overflow: auto; 
