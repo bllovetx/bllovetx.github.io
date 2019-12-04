@@ -80,7 +80,7 @@ body:before {
     }
 
     section.aboutme p {
-        margin: 70px;
+        margin: 70px 0 70px 0;
     }
     .a1, .a2, .a3 {
         border-radius: 50px;
