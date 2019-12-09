@@ -87,6 +87,11 @@ body{
     color: black;
 }
 
+#main section img {
+    width: 100%;
+    border-radius: 15px;
+}
+
     #main con {
         font-family: 'Ma Shan Zheng', cursive;
         font-size: 20px;
@@ -97,6 +102,8 @@ body{
 
     #main unsolved {
         color:rgba(128, 0, 128, 0.7);
+        font-weight: bold;
+        font-size: 25px;
     }
 
 /*
