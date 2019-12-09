@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="bookmark" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
+
+
+    <!-- info of the page-->
+    <meta name="keywords" content="Q&A, inspirations, thoughts, quantum, Physics, computer science, 曾许曌秋">
+    <meta name="description" content="This is daily Q&A by 曾许曌秋, including my inspirations and thoughts">
+    <meta name="author" content="曾许曌秋 ( eliot )">	
+
+		<title>Q and A by 曾许曌秋</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+        
+		<div id="container">
+
+            <!-- header -->
+			<div id="header">
+                <h1>My Q & A</h1>
+			</div><!-- header -->
+
+            <!-- main -->
+			<div id="main">
+                
+                <h2 class="blue">Description:</h2>
+                <section id="description">
+                    <h2>This my Q&A page, I will record my inspirations and thoughts here.</h2>
+                    <h2>And currently, due to time limit, this page doesn't support mobile version well</h2>
+                    <h2>-- 2019.12.9</h2>
+                </section><!-- description-->
+
+
+<!-- ADD CONTENT HERE -->
+
+                <!-- REMEMBER TO ADD SIDEBAR -->
+                <h2 class="blue">Q & A - 2019.12.9</h2>                 <!-- <= change date here -->
+                <section id="post_2019_12_9">                           <!-- <= change date here -->
+                    <br><p>                                                 <!-- <= add tags here -->
+                        tags: QM 能量角动量守恒 系综
+                    </p> <br>
+
+                    <h2>Ques:</h2>
+                    <con><!-- <= add ques here -->
+                        按照之前的说法，能量不必守恒，而应当理解为能量的期望/系综的能量 守恒。<br>
+                        <cen>Then, what about L?</cen><br>
+                        如果角动量的守恒也不能保证的话，就没有所谓纠缠了<br>
+                        总角动量z分量<br>
+                    </con> <br><br>
+
+                    <h2>Ans:</h2> 
+                    <h2><!-- <= add ans here (may use:<unsolved>unsolved</unsolved>) -->
+                        <unsolved>unsolved</unsolved>
+                    </h2>                       
+
+                </section><!-- post_2019_12_9 -->                       <!-- <= change date here -->
+
+
+
+                <br><br>
+
+			</div><!--#main-->
+
+			<div id="sidebar">
+                <img src="images/rain.jpg" class="circle" alt="icon">
+                <br><br><br><br>
+
+                <h1>Follow Me</h1>
+                    <ul>
+                        <li><a href="http://zxzq.me" target="_blank">Home Page</a></li>
+                        <li><a href="https://www.cnblogs.com/bllovetx" target="_blank">Blog on CNblog</a></li>
+                    </ul>
+                <br><br>
+
+                <!-- 一言 api -->
+                <section id="hito">
+
+
+                    <h1> 一言（ヒトコト）</h1>
+                    <p id="hitokoto" class="red">:D 获取中...</p>
+                    <p id="hitokoto_author" class="red">:D 获取中...</p>
+                    <script>
+                      fetch('https://v1.hitokoto.cn/?c=a')
+                        .then(function (res){
+                          return res.json();
+                        })
+                        .then(function (data) {
+                          var hitokoto = document.getElementById('hitokoto');
+                          hitokoto.innerText = data.hitokoto;
+                          var hitokoto_author = document.getElementById('hitokoto_author');
+                          hitokoto_author.innerText = "——"+data.from;  
+                        })
+                        .catch(function (err) {
+                          console.error(err);
+                        })
+                    </script>
+                </section>  <!-- 一言 end here-->
+
+
+                <!-- list -->
+                <h1> All Posts </h1>
+                <ul>
+
+<!-- ADD LINK HERE -->
+
+                    <li><a href="#
+                            post_2019_12_9
+                            ">
+                            post_2019_12_9
+                        </a> <br>
+                        QM 能量角动量守恒 系综
+                    </li>
+
+                </ul>
+
+
+			</div><!--#sidebar-->
+
+			<div class="clear"></div>
+
+			<div id="footer">
+                <p>This page is made by <a href="https://zxzq.me" target="_blank" rel="home page for 曾许曌秋">曾许曌秋 (Eliot)</a> from 
+                    <a href="https://dii.nju.edu.cn/" target="_blank" rel="匡亚明学院">Kuang Yaming Honors School</a>,
+                    <a href="https://www.nju.edu.cn/" target="_blank" rel="南京大学">Nanjing University</a></p>
+			</div><!--footer-->
+		</div><!--#container-->
+
+
+	</body>
+</html>
