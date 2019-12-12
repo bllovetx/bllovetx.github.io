@@ -1,0 +1,228 @@
+/*
+
+Project Name:  Resume 曾许曌秋 (Eliot)
+Author: 曾许曌秋 (eliot) | zxzq.me 
+At: Nanjing University
+
+*/
+
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+en {
+    font-family: 'Pacifico', cursive;
+}
+
+.circle{
+    width: 60%;
+    border-radius: 60%;
+    margin: 10% 20%;
+}
+
+h2 {
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Merienda One', cursive;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: lighter;
+}
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: salmon;
+}
+
+
+hr {
+    margin: 0;
+    border: 4px solid;
+    border-radius: 4px;
+}
+
+/*
+ * Body
+ */
+
+body {
+    background: #333;
+    font-size: 20px;
+}
+
+#container {
+    width: 1200px;
+    height: 1600px;
+    background: #EFFFCD;
+    margin: 70px auto;
+}
+
+
+    /*
+     * sidebar
+     */
+
+    #sidebar{
+        width: 30%;
+        height: 100%;
+        background: #BAE3DE;
+        color: #675647;
+        float: left;
+    }
+
+    #sidebar section {
+        width: 80%;
+        margin: 10%;
+        font-family: 'Comfortaa', cursive;
+    }
+
+
+    motto {
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 30px;
+    }
+
+    #sidebar strong {
+        font-family: 'Emblema One', cursive;
+        font-weight: lighter;
+    }
+    #contact li {
+        list-style: none;
+    }
+
+    dott {
+        width: 20px;
+        height: 20px;
+        border-color: #675647;
+        border-radius: 10px;
+        border-style: solid;
+        background:#EFFFCD;
+        display: inline-block;
+        margin: 10px 5px;
+    }
+    dot {
+        width: 20px;
+        height: 20px;
+        border-color: #675647;
+        border-radius: 10px;
+        border-style: solid;
+        display: inline-block;
+        margin: 10px 5px;
+    }
+    #languages p {
+        margin: 0;
+    }
+
+    /* 
+     * main
+     */
+
+    #main {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+        /*
+         * head
+         */
+
+        #head {
+            background: #675647;
+            margin: 0;
+            padding: 35px;
+            color: white;
+        }
+
+        #head h2 {
+            color: pink;
+        }
+
+        /*
+         * info
+         */
+
+        #info {
+            background: #EFFFCD;
+            color: #675647;
+        }
+
+        #info section {
+            margin: 50px;
+            font-family: 'Baloo Bhai', cursive;
+            font-weight: lighter;
+            font-size:25px;
+        }
+
+        #info p {
+            margin:0;
+        }
+
+        #mark {
+            border-style: solid;
+        }
+
+    /* 
+     * footer
+     */
+
+    #footer {
+        color: white;
+    }
+
+
+
+
+
+
+/*
+ * back to home page php
+ */
+
+#php {
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    background: #EFFFCD;
+    transform-origin: 10px 10px;
+    animation: rol 10s ease-in-out 3s infinite both;
+}
+
+#php #hp {
+    margin: 7px 15px 10px 7px;
+    font-family: 'Emblema One', cursive;
+    color: #333;
+}
+
+#php #x {
+    position: relative;
+    padding: 3px 5px;
+    margin:0;
+    display: inline;
+    color: salmon;
+    background: #675647;
+    
+}
+
+@keyframes rol{
+    0%{transform: rotateZ(0deg)}
+    10%{transform: rotateZ(80deg)}
+    17%{transform: rotateZ(50deg);}
+    22%{transform: rotateZ(55deg);}
+    27%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(0deg)}
+}
