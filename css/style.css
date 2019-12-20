@@ -86,12 +86,16 @@ body:before {
     }
 
     section.aboutme p {
-        margin: 70px 20px 70px 20px;
+        margin: 30px 20px;
+    }
+    section.aboutme .links p {
+        margin: 70px 20px;
     }
     .a1, .a2, .a3 {
         border-radius: 50px;
         padding: 20px 50px;
         color: white;
+        display: inline;
     }
     .a1 {
         background: #e0007b;
@@ -219,6 +223,9 @@ a {
 	text-decoration: none;
 }
 
+.clear {
+    clear: both;
+}
 
 
 @media only screen and (min-width: 900px) {
@@ -248,9 +255,11 @@ a {
         background-size: cover;
     }
     section.aboutme {
-        width: 50%;
-        background: rgb(67, 27, 107);
+        width: 100%;
+        background: linear-gradient(to right,rgb(67, 27, 107),rgb(67, 27, 107),rgb(67, 27, 107),rgba(67, 27, 107, 0.30),rgba(67, 27, 107, 0));
+        padding: 20px 0;
     }
+
 
 
     #contact {
@@ -283,7 +292,7 @@ a {
         width: 50%;
         position: relative;
         left: 50%;
-        background: #919fb4;
+        background: #c456fc;
     }
     #acknowledge {
         width: 50%;
@@ -298,5 +307,50 @@ a {
         text-align: center;
         font-weight: bold;
         padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    section.aboutme {
+        height: 100vh;
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .links p {
+        display: inline;
+    }
+    .links {
+        margin: 70px 0;
+    }
+    .aboutme h2 {
+        margin: 60px auto 30px auto;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    section.aboutme p {
+        margin: 20px;
+    }
+    section.aboutme .links p {
+        margin: 50px 20px;
+    }
+}
+
+@media only screen and (max-width:900px) and (min-width:350px) {
+    section.aboutme {
+        height: 100vh;
+        min-height: 736px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 0;
+    }
+    section.aboutme h2 {
+        margin: 0 auto;
+        font-size: 60px;
     }
 }
