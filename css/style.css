@@ -310,11 +310,11 @@ a {
     }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 900px) {
 
     section.aboutme {
         height: 100vh;
-        min-height: 600px;
+        min-height: 660px;
         display: flex;
         align-items: center;
         justify-content:center;
