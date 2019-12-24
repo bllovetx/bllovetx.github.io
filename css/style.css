@@ -151,7 +151,6 @@ body:before {
     }
 
     #blogs li {
-        text-align: center;
         font-family: 'Courgette', cursive;
         font-size: 25px;
         font-weight: normal;
@@ -239,16 +238,10 @@ a {
     }
 
 
-    #one:before {
-        content: "";
+    #one {
         display: block;
-        position: fixed;
-        left: 50%;
-        top: 0;
-        width: 50%;
-        height: 100%;
-        z-index: -10;
-        background: url(../images/wlop_bg.jpg) no-repeat center center;
+        background: url(../images/wlop_bg2.jpg) no-repeat center center;
+        background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -256,7 +249,11 @@ a {
     }
     section.aboutme {
         width: 100%;
-        background: linear-gradient(to right,rgb(67, 27, 107),rgb(67, 27, 107),rgb(67, 27, 107),rgba(67, 27, 107, 0.30),rgba(67, 27, 107, 0));
+        background: linear-gradient(to right,rgba(67, 27, 107,0),rgba(67, 27, 107,0.3),rgba(67, 27, 107,0.55),rgba(67, 27, 107,0.850),rgba(67, 27, 107, 1),rgba(67, 27, 107, 1));
+        padding: 20px 0;
+    }
+    #blogs {
+        background: linear-gradient(to right,rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 0.8),rgba(117, 193, 246, 0.4),rgba(117, 193, 246, 0.1));
         padding: 20px 0;
     }
 
@@ -271,34 +268,33 @@ a {
         content: "";
         display: block;
         position: fixed;
-        left: 0;
+        left: 50%;
         top: 0;
         width: 50%;
         height: 100%;
         z-index: -10;
-        background: url(../images/15300_4950600279.jpg) no-repeat center center;
+        background: url(../images/wlop_bg.jpg) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
     #blogs {
-        width: 50%;
+        width: 100%;
         position: relative;
-        left: 50%;
-        background: rgb(26, 178, 184);
+        color:#c456fc;
     }
     #more {
-        width: 50%;
+        width: 100%;
         position: relative;
-        left: 50%;
-        background: #c456fc;
+        background: #f795cc;
+        color: #c456fc;
     }
     #acknowledge {
-        width: 50%;
+        width: 100%;
         position: relative;
-        left: 50%;
         background: rgb(22, 192, 138);
+        color: #c456fc;
     }
     
 
@@ -327,6 +323,17 @@ a {
     }
     .aboutme h2 {
         margin: 60px auto 30px auto;
+    }
+    #blogs {
+        height: 100vh;
+        min-height: 660px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    #bloglinks {
+        width: 50%;
+        text-align: left;
     }
 }
 
