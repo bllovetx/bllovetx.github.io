@@ -350,7 +350,7 @@ a {
 @media only screen and (max-width:900px) and (min-width:350px) {
     section.aboutme {
         height: 100vh;
-        min-height: 736px;
+        min-height: 756px;
         display: flex;
         align-items: center;
         justify-content:center;
