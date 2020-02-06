@@ -253,7 +253,7 @@ a {
         padding: 20px 0;
     }
     #blogs {
-        background: linear-gradient(to right,rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 1),rgba(117, 193, 246, 0.8),rgba(117, 193, 246, 0.6),rgba(117, 193, 246, 0.3),rgba(117, 193, 246, 0.1));
+        background: linear-gradient(to right,rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 0.7),rgba(224, 0, 123, 0.6),rgba(224, 0, 123, 0.3),rgba(224, 0, 123, 0));
         padding: 20px 0;
     }
 
@@ -282,7 +282,6 @@ a {
     #blogs {
         width: 100%;
         position: relative;
-        color:#c456fc;
     }
     #more {
         width: 100%;
@@ -293,7 +292,7 @@ a {
     #acknowledge {
         width: 100%;
         position: relative;
-        background: rgb(22, 192, 138);
+        background: #75c1f6;
         color: #c456fc;
     }
     
@@ -304,9 +303,6 @@ a {
         font-weight: bold;
         padding: 30px;
     }
-}
-
-@media only screen and (min-width: 900px) {
 
     section.aboutme {
         height: 100vh;
@@ -334,6 +330,11 @@ a {
     #bloglinks {
         width: 50%;
         text-align: left;
+    }
+
+    .acknowlege {
+        width: 80%;
+        margin: 70px auto;
     }
 }
 
