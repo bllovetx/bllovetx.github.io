@@ -163,6 +163,8 @@ body:before {
 
     #blogs a:hover {
         color: #75c1f6;
+        transform: translateY(5px);
+        font-weight: bold;
     }
     /* 
      * More
