@@ -140,6 +140,7 @@ body:before {
      */
     
     #blogs {
+        padding: 70px auto;
         width: 100%;
         background: rgba(97, 208, 212, 0.5);
         color: #e3c91e;
@@ -160,7 +161,9 @@ body:before {
         color: white;
     }
 
-  
+    #blogs a:hover {
+        color: #75c1f6;
+    }
     /* 
      * More
      */
@@ -226,6 +229,65 @@ a {
     clear: both;
 }
 
+/*
+ *  font awsome
+ */
+
+#follow {
+    padding: 0 30px 70px 0;
+}
+
+#follow span {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+    line-height: 70px;
+    text-align: center;
+}
+
+i:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    font-size: 70px;
+    left: 17px;   /* FontAwesome shift right for some reason */
+    position: absolute;
+}
+
+
+
+.i-github:before  {
+    content: "\f09b";
+}
+
+.i-twitter:before {
+    content: "\f099";
+}
+
+.i-zhihu:before {
+    content: "\f111";
+}
+
+.text-zhihu {
+    color: rgba(97, 208, 212, 0.9);
+    position: absolute;
+    font-size: 35px;
+    z-index: 10;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.i-linkedin:before {
+    content: "\f08c";
+}
+
+.i-facebook:before {
+    content: "\f09a";
+}
 
 @media only screen and (min-width: 900px) {
     #container {
@@ -253,7 +315,7 @@ a {
         padding: 20px 0;
     }
     #blogs {
-        background: linear-gradient(to right,rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 0.7),rgba(224, 0, 123, 0.6),rgba(224, 0, 123, 0.3),rgba(224, 0, 123, 0));
+        background: linear-gradient(to right,rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 1),rgba(224, 0, 123, 0.8),rgba(224, 0, 123, 0.7),rgba(224, 0, 123, 0.5),rgba(224, 0, 123, 0.2));
         padding: 20px 0;
     }
 
@@ -335,6 +397,10 @@ a {
     .acknowlege {
         width: 80%;
         margin: 70px auto;
+    }
+
+    .text-zhihu {
+        color: rgb(224, 0, 123);
     }
 }
 
