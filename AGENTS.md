@@ -4,11 +4,13 @@ This is a **purely static HTML/CSS website** (personal portfolio / GitHub Pages 
 
 ### Serving locally
 
-Use any static file server. The `.vscode/settings.json` configures VS Code Live Server on port **5501**. In headless/cloud environments, use:
+Use a static file server that properly redirects directory paths with trailing slashes. The `.vscode/settings.json` configures VS Code Live Server on port **5501**. In headless/cloud environments, use:
 
 ```
-npx serve -l 5501 /workspace
+python3 -m http.server 5501 --directory /workspace
 ```
+
+**Important:** Do NOT use `npx serve` — it has "clean URL" behavior that strips trailing slashes on directory paths (e.g. `/resume` is served without redirecting to `/resume/`). This breaks relative CSS/asset paths in subdirectory pages like `/resume/`, causing the browser to load the root `/css/style.css` instead of `/resume/css/style.css`. Python's `http.server` correctly issues 301 redirects for directory URLs, matching GitHub Pages behavior.
 
 ### Project structure
 
